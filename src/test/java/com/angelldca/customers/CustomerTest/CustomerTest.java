@@ -23,6 +23,6 @@ public class CustomerTest {
 
         mockMvc.perform(get("/customer"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hellos Kafka + CI/CD"));
+                .andExpect(content().string("Hello Kafka + CI/CD"));
     }
 }
