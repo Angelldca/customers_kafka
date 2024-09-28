@@ -1,0 +1,6 @@
+
+spring:
+  application:
+    name: customers
+server:
+  port: 8080
